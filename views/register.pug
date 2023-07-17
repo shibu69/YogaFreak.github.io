@@ -1,0 +1,27 @@
+extends base.pug
+
+block scripts
+    script(src="./static/index.js")
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/contactstyle.css
+        
+
+block content 
+    h2 REGISTER NOW FOR CLASSES 
+    form(action="/register" method="post" class="form")
+        h3 Name:
+        input(type="text" class="myname" name="name" placeholder="enter your name")
+        h3 Age:
+        input(type="number" class="myage" name="age" placeholder="enter your age")
+        h3 Mobile Number:
+        input(type="mobile" class="mynumber" name="mobile" placeholder="enter your mobile number")
+        h3 Email:
+        input(type="email" class="myemail" name="email" placeholder="enter your email")
+        h3 Address:
+        input(type="textarea" class="myaddress" name="address" placeholder="enter your address")
+        h3 Preference:
+        input(type="text" class="mypreference" name="preference" placeholder="enter your preference")
+        input(type="submit" class="btn")

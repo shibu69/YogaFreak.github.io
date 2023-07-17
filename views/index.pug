@@ -1,0 +1,75 @@
+doctype html
+html
+  head
+    title YOGA CLASSES
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            li #[a(href="/") HOME ]
+            li #[a(href="/services") SERVICES ]
+            div.center
+              a(href="/") YOGA FREAK
+            li #[a(href="/about") ABOUT ]
+            li #[a(href="/register") REGISTER NOW ]
+
+    section#intro 
+        div#head WELCOME TO YOGA FREAK
+            div#bod Ignite Your Inner Light, Nurture Your True Self
+    div.button
+        button#btn #[a(href="/register") REGISTER FOR YOGA CLASSES ]
+
+    section#services 
+        div  Awaken true wellbeing.
+          p Yoga, an ancient practice originating in India, is a powerful tool that can help individuals awaken true wellbeing. It encompasses physical postures, breath control, meditation, and ethical principles to harmonize the mind, body, and spirit. By integrating these practices into one's daily life, individuals can experience profound transformation and cultivate a state of true wellbeing.
+
+          p One of the fundamental aspects of yoga is its emphasis on physical postures, known as asanas. These asanas not only enhance flexibility, strength, and balance but also promote awareness of the body and its sensations. Through regular practice, yoga practitioners become attuned to their physical selves, gaining insights into their strengths, limitations, and areas for growth. This heightened bodily awareness creates a strong foundation for overall wellbeing.
+
+          p Meditation is another integral component of yoga that contributes to awakening true wellbeing. Through meditation, individuals learn to quiet the mind, detach from external distractions, and access a deeper sense of self. Regular meditation practice cultivates mindfulness and self-awareness, allowing individuals to observe their thoughts, emotions, and sensations without judgment. This heightened self-awareness fosters emotional resilience, reduces anxiety, and promotes mental clarity, leading to a more balanced and peaceful state of being.
+
+          p Ultimately, through the integration of physical postures, breath control, meditation, and ethical principles, yoga offers a holistic approach to awakening true wellbeing. It empowers individuals to connect with their bodies, minds, and spirits, fostering self-awareness, emotional resilience, and inner peace. By embracing yoga as a way of life, one can experience a profound transformation that extends beyond the mat, leading to a state of true wellbeing that encompasses physical, mental, and spiritual realms.
+
+          button.btn #[a(href="/services") SERVICES ]
+
+    section#quotes
+        div Quotes About Yoga 
+        p "Yoga is the journey of the self, through the self, to the self." 
+            b -  The Bhagavad Gita
+        p "Yoga is the art of creating space for yourself." 
+            b - Erin Motz
+        p "Yoga is the perfect opportunity to be curious about who you are." 
+            b - Jason Crandell
+        p "Yoga is the fountain of youth. You're only as young as your spine is flexible." 
+            b - Bob Harper
+        p "Yoga teaches us to cure what need not be endured and endure what cannot be cured." 
+            b - B.K.S. Iyengar
+        p "Yoga is the practice of quieting the mind." 
+            b - Patanjali
+        p "Yoga is a dance between control and surrender, between pushing and letting go, and when to breathe and when to let go." 
+            b - Joel Kramer
+        p "Yoga is the journey of the self, through the self, to the self." 
+            b - The Bhagavad Gita
+        p "Yoga is the art of living, the art of being alive." 
+            b - B.K.S. Iyengar
+        p "Yoga is a light, which once lit will never dim. The better your practice, the brighter your flame." 
+            b - B.K.S. Iyengar
+
+    section#fromblog 
+        h2 From This Blog 
+        div.card
+            img(src="./static/img1.jpg", alt="yoga and ayurveda")
+            h3 YOGA AND AYURVEDA 
+        div.card
+            img(src="./static/img2.jpg", alt="Explore the human nature")
+            h3 EXPLORE THE HUMAN NATURE 
+        div.card
+            img(src="./static/img3.jpg", alt="self care")
+            h3 SELF CARE
+    
+
+    
+    footer#footer 
+        | Copyright Ⓒ 2023 yogafreak.com | All rights reserved
+    script
+      include ../static/index.js

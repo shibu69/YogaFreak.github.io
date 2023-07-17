@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Ysabeau+SC:wght@300&display=swap');
+
+body{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 40px;
+    text-decoration: underline;
+}
+
+form{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 500px;
+    margin-bottom: 80px;
+    width: 500px;
+    padding: 30px;
+    text-align: justify;
+}
+.form h3{
+    font-size: 20px;
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="textarea"],
+input[type="mobile"]{
+    width: 400px;
+    height: 40px;
+    padding: 15px;
+    border: 1px solid brown;
+    border-radius: 20px;
+}
+
+.btn{
+    color: blanchedalmond;
+    background-color: rgb(43, 71, 75);
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    background-color: darkgrey;
+    color: black;
+}

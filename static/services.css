@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Ysabeau+SC:wght@300&display=swap');
+
+body{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    margin: 80px;
+}
+
+p{
+    text-align: justify;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+h3{
+    padding-left: 330px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 25px;
+}
+
